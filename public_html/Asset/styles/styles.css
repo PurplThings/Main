@@ -1,0 +1,26 @@
+
+.btn-outline-purple{
+    width: 25%;
+}
+@media only screen and (max-width: 575px){
+    .part1 img{
+        width: 92%;
+    }
+    .btn-outline-purple{
+        width: 25%;
+    }
+    .part2 .carousel-item img{
+        height: 400px;
+    }
+}
+@media (min-width: 720px) and (max-width:1080px){
+    .btn-outline-purple{
+        width: 40%;
+    }
+    .part1{
+        margin-left: 60px;
+    }
+    .part2 .carousel-item img{
+        height: 500px;
+    }
+}

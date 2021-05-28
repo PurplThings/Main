@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Titillium+Web&display=swap');*/
+body{
+    /*font-family: 'Texturina', serif;*/
+    font-family: 'Titillium Web', sans-serif;
+   /* font-family: 'Orbitron', sans-serif;*/
+   /* font-family: 'Titillium Web', sans-serif;*/
+}
+
+.scrollbar
+{
+	overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: purple;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(223, 39, 110, 0.781) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(214, 34, 118, 0.897) 50%,
+											  rgba(226, 29, 144, 0.808) 75%,
+											  transparent 75%,
+											  transparent)
+}
