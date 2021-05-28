@@ -39,7 +39,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="Asset/images/slide1.jpeg" class="d-block " style="width:1920px;height:1080px;"; alt="...">
+                <img src="Asset/images/slide1.jpeg" class="d-block w-100" height="600" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                      <h5>Innovation</h5>
                     <p>Innovation is production or adoption, assimilation, and exploitation of a value-added novelty in economic and social spheres</p> 
