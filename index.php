@@ -88,15 +88,118 @@
 
     <br><br>
 
+    <div class="container part1">
+        <div class="row shadow-lg">
+            <div class="col-sm-8 card  p-4" style="border: none;">
+                <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">VISION</h1><br><br>
+                <h5 class="text-center">PurplThings provide competitive, high quality electronic services and products, 
+                    whilst encouraging everyone to use creative and innovative products to help improve environment.</h5><br>
+            </div>
+            <div class="col-sm-4">
+                <img src="Asset/images/img6.png" alt="Index_Img_1">
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container part3">
+        <div class="row shadow-lg">
+            <div class="col-sm-4 img">
+                <img src="Asset/images/img7.png" alt="Index_Img_1">
+            </div>
+            <div class="col-sm-8 card p-4" style="border: none;">
+                <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">MISSION</h1><br><br>
+                <h3 class="text-center">"Everyones go-to provider for electronic services."</h3><br>
+                <div class="p-4">
+                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Imply Continuous Process Improvement strategies to ensure the highest quality products and services.</h5></div></div>
+                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Excel in innovation,quality,value addition,cost and On time delivery.</h5></div></div>
+                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Foster long term partnership with customers and industry.</h5></div></div>
+                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Learn, practice and teach & implement effective solutions for the Eco-System.</h5></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    
+    <div class="container shadow-lg part4"><br>
+        <h1 class="text-center fw-bold text-purple">VALUES</h1>
+        <h5 class="text-center">Our values define the work</h5><br>
+        <div class="row">
+
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner shadow-lg">
+                        <div class="flip-card-front text-center text-purple">
+                            <h1>QUALITY</h1>
+                        </div>
+                        <div class="flip-card-back p-4">
+                            <p>We don’t just talk about quality. It is ingrained in our daily missions. 
+                                We have carefully developed our processes 
+                                and procedures to ensure top quality products are delivered from time to time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner shadow-lg">
+                        <div class="flip-card-front text-center text-purple">
+                            <h1>FLEXIBILITY</h1>
+                        </div>
+                        <div class="flip-card-back p-4">
+                            <p>We realize that every person, product and business has unique needs and doesn’t necessarily 
+                                require usual models. That’s why we pride ourselves on our ability to adapt 
+                                and tackle all challenges to meet the beneﬁcial outcomes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner shadow-lg">
+                        <div class="flip-card-front text-center text-purple">
+                            <h1>RELIABILITY</h1>
+                        </div>
+                        <div class="flip-card-back p-4">
+                            <p>Our clients, our people and our stakeholders rely on us for accuracy, validity, and dedication.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner shadow-lg">
+                        <div class="flip-card-front text-center text-purple">
+                            <h1>INTEGRITY</h1>
+                        </div>
+                        <div class="flip-card-back py-4">
+                            <p>The foundation of our business is built on honesty, fairness and striving to 
+                                achieve beneficial outcomes for everyone. By partnering with 
+                                like-minded people and partners, we are continually driven to make the right decision.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><br><br>
+    </div>
+
+    <br><br>
+
     <!-- Container 1 -->
     <div class="container part1">
-        <div class="row">
-            <div class="col-sm-6 card shadow-lg p-4" style="border: none;">
+        <div class="row shadow-lg">
+            <div class="col-sm-8 card  p-4" style="border: none;">
                 <h1 class="text-purple fw-bold">Internet of Things</h1><br><br>
                 <h5 class="">describes the network of physical object-"things" that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet.</h5><br>
                 <a href="#" class="btn btn-outline-purple shadow-lg float-end">Research</a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <img src="Asset/images/img6.png" alt="Index_Img_1">
             </div>
         </div>
@@ -105,11 +208,11 @@
     <br><br>
     <!-- Container 2 -->
     <div class="container part3">
-        <div class="row">
-            <div class="col-sm-6 img">
+        <div class="row shadow-lg">
+            <div class="col-sm-4 img">
                 <img src="Asset/images/img7.png" alt="Index_Img_1">
             </div>
-            <div class="col-sm-6 card shadow-lg p-4" style="border: none;">
+            <div class="col-sm-8 card p-4" style="border: none;">
                 <h1 class="text-purple fw-bold">Smart Electronics</h1><br><br>
                 <h5 class="">Electronics in which the scope of the functionality grows beyond routine automation.leading to innovations which bring change to daily life in a decisive way.Leading to simpler lifes,</h5><br>
                 <div class="btn-group">
@@ -130,7 +233,7 @@
                 <div class="card shadow-lg">
                     <img src="Asset/images/harsha.jpeg" alt="" style="width:100%">
                     <div class="container text-center text-purple fw-bold"><br>
-                    <p>Harshavardhan G <br> CEO</p>
+                    <p>G Harsha vardhan<br> CEO</p>
                     </div>
                 </div>
             </div>
@@ -138,7 +241,7 @@
                 <div class="card shadow-lg">
                     <img src="Asset/images/likith.jpeg" alt="" style="width:100%">
                     <div class="container text-center text-purple fw-bold"><br>
-                    <p>Likith P <br> CRO</p>
+                    <p>P Likith<br> CRO</p>
                     </div>
                 </div>
             </div>
@@ -146,7 +249,7 @@
                 <div class="card shadow-lg">
                     <img src="Asset/images/kethan.jpeg" alt="" style="width:100%">
                     <div class="container text-center text-purple fw-bold"><br>
-                    <p>Kethan Vemuri <br> CTO</p>
+                    <p>Kethan Vemuri<br> CTO</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +257,7 @@
                 <div class="card shadow-lg">
                     <img src="Asset/images/jana.jpeg" alt="" style="width:100%">
                     <div class="container text-center text-purple fw-bold"><br>
-                    <p>Janardhan Babu M <br> COD</p>
+                    <p>M Janardhan Babu<br> COD</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +265,8 @@
     </div>
     <!-- End About Us -->
 
-<br><br><br><br>
+<br><br>
+<br><br>
 <?php include_once "Asset/util/footer.php"; ?>
 </body>
 </html>
