@@ -6,8 +6,21 @@
     width: 95%;
     height: 50vh;
 }
+.part2 img{
+    height: 91vh;
+}
 #aboutus .col-sm-3 p{
     font-size: 1.4rem;
+}
+#aboutus .card {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+}
+#aboutus .card:hover {
+    transform: scale(1.1);
 }
 @media only screen and (max-width: 575px){
     .part1 img{
@@ -16,8 +29,8 @@
     .btn-outline-purple{
         width: 25%;
     }
-    .part2 .carousel-item img{
-        height: 400px;
+    .part2 img{
+        height: 300px;
     }
     .part3 .img{
         order: 2;
@@ -39,8 +52,8 @@
     .part1{
         margin-left: 60px;
     }
-    .part2 .carousel-item img{
-        height: 500px;
+    .part2 img{
+        height: 300px;
     }
     .part3 .img{
         order: 2;

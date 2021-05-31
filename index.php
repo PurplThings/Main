@@ -39,35 +39,35 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="Asset/images/slide1.jpeg" class="d-block w-100" height="600"  alt="...">
+                <img src="Asset/images/slide1.jpeg" class="d-block w-100"  alt="...">
                 <div class="carousel-caption d-none d-md-block">
                      <h5>Innovation</h5>
                     <p>Innovation is production or adoption, assimilation, and exploitation of a value-added novelty in economic and social spheres</p> 
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="Asset/images/slide2.jpeg" class="d-block w-100" height="600" alt="...">
+                <img src="Asset/images/slide2.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p> -->
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="Asset/images/slide3.jpeg" class="d-block w-100" height="600" alt="...">
+                <img src="Asset/images/slide3.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p> -->
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="Asset/images/slide4.jpeg" class="d-block w-100" height="600" alt="...">
+                <img src="Asset/images/slide4.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p> -->
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="Asset/images/slide6.jpeg" class="d-block w-100" height="600" alt="...">
+                <img src="Asset/images/slide6.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p> -->
@@ -129,36 +129,32 @@
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/harsha.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white"><br>
-                    <p>Harshavardhan G</p>
-                    <p>CEO</p>
+                    <div class="container text-center text-purple fw-bold"><br>
+                    <p>Harshavardhan G <br> CEO</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/likith.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white"><br>
-                    <p>Likith P</p>
-                    <p>CRO</p>
+                    <div class="container text-center text-purple fw-bold"><br>
+                    <p>Likith P <br> CRO</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/kethan.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white"><br>
-                    <p>Kethan Vemuri</p>
-                    <p>CTO</p>
+                    <div class="container text-center text-purple fw-bold"><br>
+                    <p>Kethan Vemuri <br> CTO</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/jana.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white"><br>
-                    <p>Janardhan Babu M</p>
-                    <p>COD</p>
+                    <div class="container text-center text-purple fw-bold"><br>
+                    <p>Janardhan Babu M <br> COD</p>
                     </div>
                 </div>
             </div>
