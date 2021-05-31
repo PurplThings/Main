@@ -2,6 +2,13 @@
 .btn-outline-purple{
     width: 25%;
 }
+.part3 img{
+    width: 95%;
+    height: 50vh;
+}
+#aboutus .col-sm-3 p{
+    font-size: 1.4rem;
+}
 @media only screen and (max-width: 575px){
     .part1 img{
         width: 92%;
@@ -11,6 +18,18 @@
     }
     .part2 .carousel-item img{
         height: 400px;
+    }
+    .part3 .img{
+        order: 2;
+    }
+    .part3 .card{
+        order:1;
+    }
+    #aboutus .col-sm-3{
+        width: 50%;
+    }
+    #aboutus .col-sm-3 p{
+        font-size: 1.1rem;
     }
 }
 @media (min-width: 720px) and (max-width:1080px){
@@ -22,5 +41,17 @@
     }
     .part2 .carousel-item img{
         height: 500px;
+    }
+    .part3 .img{
+        order: 2;
+    }
+    .part3 .card{
+        order:1;
+    }
+    #aboutus .col-sm-3{
+        width: 50%;
+    }
+    #aboutus .col-sm-3 p{
+        font-size: 1.1rem;
     }
 }

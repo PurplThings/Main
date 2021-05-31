@@ -104,10 +104,10 @@
     <!-- END Container 1 -->
     <br><br>
     <!-- Container 2 -->
-    <div class="container part1">
+    <div class="container part3">
         <div class="row">
-            <div class="col-sm-6">
-                <img src="Asset/images/img6.png" alt="Index_Img_1">
+            <div class="col-sm-6 img">
+                <img src="Asset/images/img7.png" alt="Index_Img_1">
             </div>
             <div class="col-sm-6 card shadow-lg p-4" style="border: none;">
                 <h1 class="text-purple fw-bold">Smart Electronics</h1><br><br>
@@ -129,8 +129,8 @@
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/harsha.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white">
-                    <p style="font-size: 1.4rem;">Harshavardhan G</p>
+                    <div class="container text-center bg-purple text-white"><br>
+                    <p>Harshavardhan G</p>
                     <p>CEO</p>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/likith.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white">
-                    <p style="font-size: 1.4rem;">Likith P</p>
+                    <div class="container text-center bg-purple text-white"><br>
+                    <p>Likith P</p>
                     <p>CRO</p>
                     </div>
                 </div>
@@ -147,8 +147,8 @@
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/kethan.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white">
-                    <p style="font-size: 1.4rem;">Kethan Vemuri</p>
+                    <div class="container text-center bg-purple text-white"><br>
+                    <p>Kethan Vemuri</p>
                     <p>CTO</p>
                     </div>
                 </div>
@@ -156,8 +156,8 @@
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/jana.jpeg" alt="" style="width:100%">
-                    <div class="container text-center bg-purple text-white">
-                    <p style="font-size: 1.4rem;">Janardhan Babu M</p>
+                    <div class="container text-center bg-purple text-white"><br>
+                    <p>Janardhan Babu M</p>
                     <p>COD</p>
                     </div>
                 </div>
