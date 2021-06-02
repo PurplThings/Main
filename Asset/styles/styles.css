@@ -73,12 +73,18 @@
     color: white;
     transform: rotateY(180deg);
   }
+
+  #aboutus .btn-group .btn-purple:hover{
+    background-color: #fff;
+    color: purple;
+  }
 @media only screen and (max-width: 575px){
     .part1 img{
         width: 92%;
     }
     .btn-outline-purple{
-        width: 25%;
+        width: 50%;
+        margin: auto;
     }
     .part2 img{
         height: 300px;
@@ -100,14 +106,20 @@
     }
     .flip-card-back p{
         font-size: 20px;
+    }
+    .part3 .row{
+        --bs-gutter-x: 0;
+    }
+    .part1 .row{
+        margin: auto;
     }
 }
 @media (min-width: 720px) and (max-width:1080px){
     .btn-outline-purple{
         width: 40%;
     }
-    .part1{
-        margin-left: 60px;
+    .part1 .row{
+        margin: auto;
     }
     .part2 img{
         height: 300px;
@@ -129,5 +141,8 @@
     }
     .flip-card-back p{
         font-size: 20px;
+    }
+    .part3 .row{
+        --bs-gutter-x: 0;
     }
 }

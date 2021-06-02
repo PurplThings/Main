@@ -108,14 +108,14 @@
             <div class="col-sm-4 img">
                 <img src="Asset/images/img7.png" alt="Index_Img_1">
             </div>
-            <div class="col-sm-8 card p-4" style="border: none;">
+            <div class="col-sm-8 p-4" style="border: none;">
                 <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">MISSION</h1><br><br>
                 <h3 class="text-center">"Everyones go-to provider for electronic services."</h3><br>
                 <div class="p-4">
-                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Imply Continuous Process Improvement strategies to ensure the highest quality products and services.</h5></div></div>
-                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Excel in innovation,quality,value addition,cost and On time delivery.</h5></div></div>
-                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Foster long term partnership with customers and industry.</h5></div></div>
-                    <div class="row"><div class="col-sm-1"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-sm-11"><h5>Learn, practice and teach & implement effective solutions for the Eco-System.</h5></div></div>
+                    <div class="row"><div class="col"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-11"><h5>Imply Continuous Process Improvement strategies to ensure the highest quality products and services.</h5></div></div>
+                    <div class="row"><div class="col"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-11"><h5>Excel in innovation,quality,value addition,cost and On time delivery.</h5></div></div>
+                    <div class="row"><div class="col"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-11"><h5>Foster long term partnership with customers and industry.</h5></div></div>
+                    <div class="row"><div class="col"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-11"><h5>Learn, practice and teach & implement effective solutions for the Eco-System.</h5></div></div>
                 </div>
             </div>
         </div>
@@ -232,32 +232,52 @@
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/harsha.jpeg" alt="" style="width:100%">
-                    <div class="container text-center text-purple fw-bold"><br>
+                    <div class="px-1 text-center text-purple fw-bold"><br>
                     <p>G Harsha vardhan<br> CEO</p>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-purple" href="mailto:harshavardhan@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" href="tel:+919533333303"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" href="https://wa.me/+919533333303?text=Hi Harsha Vardhan"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/likith.jpeg" alt="" style="width:100%">
-                    <div class="container text-center text-purple fw-bold"><br>
-                    <p>P Likith<br> CRO</p>
+                    <div class="px-1 text-center text-purple fw-bold"><br>
+                    <p>Likith Reddy P<br> CRO</p>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-purple" href="mailto:likhith.p@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" href="tel:+917330190931"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" href="https://wa.me/+917330190931?text=Hi Likhith"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/kethan.jpeg" alt="" style="width:100%">
-                    <div class="container text-center text-purple fw-bold"><br>
+                    <div class="px-1 text-center text-purple fw-bold"><br>
                     <p>Kethan Vemuri<br> CTO</p>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-purple" href="mailto:kethan.vemuri@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" href="tel:+917989216155"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" href="https://wa.me/+917989216155?text=Hi Kethan"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
                     <img src="Asset/images/jana.jpeg" alt="" style="width:100%">
-                    <div class="container text-center text-purple fw-bold"><br>
-                    <p>M Janardhan Babu<br> COD</p>
+                    <div class="px-1 text-center text-purple fw-bold"><br>
+                    <p>M Janardhan Babu<br> CDO</p>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-purple" href="mailto:janardhan@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" href="tel:+919700870067"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" href="https://wa.me/+919700870067?text=Hi Janardhan"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
