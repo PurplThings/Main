@@ -9,9 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password</title>
     <?php require_once 'Asset/util/index_require.php'; ?>
+    <style>
+        .shadow{
+            width: 30%;margin: 10% auto;
+        }
+        @media only screen and (max-width: 575px){
+            .shadow{
+                width: 60%;
+                margin: 60% auto;
+            }
+        }
+        @media (min-width:971px) and (max-width:980px){
+            .shadow{
+                width: 50%;
+                margin: 50% auto;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="shadow" style="width: 30%;margin: 10% auto;">
+    <div class="shadow">
         <form action="" method="post" style="padding: 5%;">
             <?php if(isset($_GET['id'])){ ?>
             <h5 class="text-center">Forgot Password / Activate Account</h5><br>
