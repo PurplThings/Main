@@ -2,16 +2,19 @@
 .btn-outline-purple{
     width: 25%;
 }
-.part3 img{
-    width: 100%;
-    height: 50vh;
-}
-.part1 img{
-    width: 100%;
-    height: 40vh;
+.part2,.part3,.part4,.part5,.part6{
+    width: 90%;
+    margin: auto;
 }
 .part2 img{
-    height: 91vh;
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+.part3 img{
+    width: 100%;
+    padding: 5%;
+    margin: auto;
 }
 #aboutus .col-sm-3 p{
     font-size: 1.4rem;
@@ -78,22 +81,18 @@
     background-color: #fff;
     color: purple;
   }
+  .part1 img{
+    height: 91vh;
+    width: auto;
+  }
 @media only screen and (max-width: 575px){
     .part1 img{
-        width: 92%;
+        height: 30vh;
+        width: auto;
     }
     .btn-outline-purple{
         width: 50%;
         margin: auto;
-    }
-    .part2 img{
-        height: 300px;
-    }
-    .part3 .img{
-        order: 2;
-    }
-    .part3 .card{
-        order:1;
     }
     #aboutus .col-sm-3{
         width: 50%;
@@ -104,32 +103,32 @@
     .flip-card {
         margin-bottom: 10px;
     }
-    .flip-card-back p{
-        font-size: 20px;
-    }
     .part3 .row{
         --bs-gutter-x: 0;
     }
-    .part1 .row{
-        margin: auto;
+    .part2 .col-sm-4{
+        margin-top: -7%;
+    }
+    .part3 .col-sm-4{
+        margin-top: -25%;
+        margin-left: 15px;
+    }
+    .part4 .flip-card-front h1{
+        font-size: 2rem;
+        font-weight:bolder;
+    }
+    .part4 .flip-card-back p{
+        font-size: 1.3rem;
     }
 }
-@media (min-width: 720px) and (max-width:1080px){
+@media (min-width: 720px) and (max-width:970px){
+    .part1 img{
+        height: 30vh;
+        width: auto;
+    }
     .btn-outline-purple{
         width: 40%;
     }
-    .part1 .row{
-        margin: auto;
-    }
-    .part2 img{
-        height: 300px;
-    }
-    .part3 .img{
-        order: 2;
-    }
-    .part3 .card{
-        order:1;
-    }
     #aboutus .col-sm-3{
         width: 50%;
     }
@@ -139,10 +138,43 @@
     .flip-card {
         margin-bottom: 10px;
     }
-    .flip-card-back p{
-        font-size: 20px;
-    }
     .part3 .row{
         --bs-gutter-x: 0;
+    }
+    .part2 .col-sm-4{
+        margin-top: -30px;
+    }
+    .part3 img{
+        width: 90%;
+        margin-top: 40%;
+    }
+    .part4 .flip-card-front h1{
+        font-size: 2rem;
+        font-weight:bolder;
+    }
+    .part4 .flip-card-back p{
+        font-size: 1.5rem;
+        font-weight:bolder;
+    }
+}
+@media (min-width:971px) and (max-width:980px){
+    .part1 img{
+        height: 25vh;
+        width: auto;
+    }
+    .part2 img{
+        margin-top: 20%;
+    }
+    .part3 img{
+        width: 90%;
+        margin-top: 40%;
+    }
+    .part4 .flip-card-front h1{
+        font-size: 1.5rem;
+        font-weight:bolder;
+    }
+    .part4 .flip-card-back p{
+        font-size: 0.85rem;
+        font-weight:bolder;
     }
 }

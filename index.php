@@ -28,7 +28,7 @@
     <!-- End Navigation bar -->
 
     <!-- Carousel Begin -->
-    <div class="part2">
+    <div class="part1">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -88,7 +88,7 @@
 
     <br><br>
 
-    <div class="container part1">
+    <div class="part2">
         <div class="row shadow-lg">
             <div class="col-sm-8 card  p-4" style="border: none;">
                 <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">VISION</h1><br><br>
@@ -103,11 +103,8 @@
 
     <br><br>
 
-    <div class="container part3">
+    <div class="part3">
         <div class="row shadow-lg">
-            <div class="col-sm-4 img">
-                <img src="Asset/images/img7.png" alt="Index_Img_1">
-            </div>
             <div class="col-sm-8 p-4" style="border: none;">
                 <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">MISSION</h1><br><br>
                 <h3 class="text-center">"Everyones go-to provider for electronic services."</h3><br>
@@ -118,12 +115,15 @@
                     <div class="row"><div class="col"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-11"><h5>Learn, practice and teach & implement effective solutions for the Eco-System.</h5></div></div>
                 </div>
             </div>
+            <div class="col-sm-4 img">
+                <img src="Asset/images/img7.png" alt="Index_Img_1">
+            </div>
         </div>
     </div>
 
     <br><br>
     
-    <div class="container shadow-lg part4"><br>
+    <div class="part4"><br>
         <h1 class="text-center fw-bold text-purple">VALUES</h1>
         <h5 class="text-center">Our values define the work</h5><br>
         <div class="row">
@@ -177,7 +177,7 @@
                         <div class="flip-card-front text-center text-purple">
                             <h1>INTEGRITY</h1>
                         </div>
-                        <div class="flip-card-back py-4">
+                        <div class="flip-card-back p-4">
                             <p>The foundation of our business is built on honesty, fairness and striving to 
                                 achieve beneficial outcomes for everyone. By partnering with 
                                 like-minded people and partners, we are continually driven to make the right decision.</p>
@@ -192,27 +192,14 @@
     <br><br>
 
     <!-- Container 1 -->
-    <div class="container part1">
+    <div class="part5">
         <div class="row shadow-lg">
-            <div class="col-sm-8 card  p-4" style="border: none;">
+            <div class="col-sm-6 card  p-4" style="border: none;">
                 <h1 class="text-purple fw-bold">Internet of Things</h1><br><br>
                 <h5 class="">describes the network of physical object-"things" that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet.</h5><br>
                 <a href="#" class="btn btn-outline-purple shadow-lg float-end">Research</a>
             </div>
-            <div class="col-sm-4">
-                <img src="Asset/images/img6.png" alt="Index_Img_1">
-            </div>
-        </div>
-    </div>
-    <!-- END Container 1 -->
-    <br><br>
-    <!-- Container 2 -->
-    <div class="container part3">
-        <div class="row shadow-lg">
-            <div class="col-sm-4 img">
-                <img src="Asset/images/img7.png" alt="Index_Img_1">
-            </div>
-            <div class="col-sm-8 card p-4" style="border: none;">
+            <div class="col-sm-6 card p-4" style="border: none;">
                 <h1 class="text-purple fw-bold">Smart Electronics</h1><br><br>
                 <h5 class="">Electronics in which the scope of the functionality grows beyond routine automation.leading to innovations which bring change to daily life in a decisive way.Leading to simpler lifes,</h5><br>
                 <div class="btn-group">
@@ -222,12 +209,11 @@
             </div>
         </div>
     </div>
-    <!-- END Container 2 -->
-    
+    <!-- END Container 1 -->
     
         <br><br>
     <!-- About Us -->
-    <div class="container" id="aboutus">
+    <div class="part6" id="aboutus">
         <div class="row px-2">
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
@@ -236,9 +222,9 @@
                     <p>G Harsha vardhan<br> CEO</p>
                     </div>
                     <div class="btn-group">
-                        <a class="btn btn-purple" href="mailto:harshavardhan@purplthings.com"><i class="fas fa-envelope"></i></a>
-                        <a class="btn btn-purple" href="tel:+919533333303"><i class="fas fa-phone-alt"></i></a>
-                        <a class="btn btn-purple" href="https://wa.me/+919533333303?text=Hi Harsha Vardhan"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="mailto:harshavardhan@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="tel:+919533333303"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="https://wa.me/+919533333303?text=Hi Harsha Vardhan"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -249,9 +235,9 @@
                     <p>Likith Reddy P<br> CRO</p>
                     </div>
                     <div class="btn-group">
-                        <a class="btn btn-purple" href="mailto:likhith.p@purplthings.com"><i class="fas fa-envelope"></i></a>
-                        <a class="btn btn-purple" href="tel:+917330190931"><i class="fas fa-phone-alt"></i></a>
-                        <a class="btn btn-purple" href="https://wa.me/+917330190931?text=Hi Likhith"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="mailto:likhith.p@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="tel:+917330190931"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="https://wa.me/+917330190931?text=Hi Likhith"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -262,9 +248,9 @@
                     <p>Kethan Vemuri<br> CTO</p>
                     </div>
                     <div class="btn-group">
-                        <a class="btn btn-purple" href="mailto:kethan.vemuri@purplthings.com"><i class="fas fa-envelope"></i></a>
-                        <a class="btn btn-purple" href="tel:+917989216155"><i class="fas fa-phone-alt"></i></a>
-                        <a class="btn btn-purple" href="https://wa.me/+917989216155?text=Hi Kethan"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="mailto:kethan.vemuri@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="tel:+917989216155"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="https://wa.me/+917989216155?text=Hi Kethan"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -275,9 +261,9 @@
                     <p>M Janardhan Babu<br> CDO</p>
                     </div>
                     <div class="btn-group">
-                        <a class="btn btn-purple" href="mailto:janardhan@purplthings.com"><i class="fas fa-envelope"></i></a>
-                        <a class="btn btn-purple" href="tel:+919700870067"><i class="fas fa-phone-alt"></i></a>
-                        <a class="btn btn-purple" href="https://wa.me/+919700870067?text=Hi Janardhan"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="mailto:janardhan@purplthings.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="tel:+919700870067"><i class="fas fa-phone-alt"></i></a>
+                        <a class="btn btn-purple" target="_blank" href="https://wa.me/+919700870067?text=Hi Janardhan"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -288,7 +274,15 @@
 <br><br>
 
 
+<p id="demo"></p>
 
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+var x = document.getElementById("demo");
+x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+</script>
 <br><br>
 <?php include_once "Asset/util/footer.php"; ?>
 </body>
