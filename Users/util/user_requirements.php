@@ -11,7 +11,7 @@
 <script src="../Asset/js/fontawesome/all.js"></script>
 <script src="../Asset/js/jquery-3.6.0.min.js"></script>
 <script src="../Asset/js/jquery-3.6.0.js"></script>
-<script src="../Asset/js/sessiontimeout.js"></script>
+<script src="../Asset/js/sessiontimeout.js" defer></script>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">

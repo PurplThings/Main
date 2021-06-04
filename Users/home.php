@@ -38,7 +38,7 @@
         <div class="shadow-lg p-2">
             <div class="row">
                 <div class="col-sm-7 mt-3 ms-5">
-                    <img class="shadow-lg px-1 py-1 bg-purple" src="../Asset/images/profile1.jpg" alt="profile photo" style="height:150px;width:150px;border-radius:50%;">
+                    <img class="shadow-lg px-1 py-1 bg-warning" src="../Asset/images/profile1.jpg" alt="profile photo" style="height:150px;width:150px;border-radius:50%;">
                 </div>
                 <div class="col-sm-4 text-end py-4 px-4">
                     <h3><?php echo $_SESSION['name']; ?></h3>

@@ -1,30 +1,21 @@
 $(function(){
 
-    function timechecker(){
-        setInterval(function(){
-            var storedTimeStamp = sessionStorage.getItem("lastTimeStamp");
-            timeCompare(storedTimeStamp);
-        },10000)
-    }
+    var duration = 60;
 
-    function timeCompare(timeString){
-        var currentTime = new Date();
-        var pastTime = new Date(timeString);
-        var timeDiff = currentTime - pastTime;
-        var minpast  = Math.floor((timeDiff/60000));
+    setInterval(updateTimer,1000);
 
-        if(minpast > 1){
-            sessionStorage.removeItem("lastTimeStamp");
+    function updateTimer(){
+        duration--;
+        console.log(duration);
+        if(duration<1){
             window.location = "../Asset/util/logout.php";
-        }else{
-            console.log(currentTime +" - "+ pastTime + " - "+ minpast);
         }
     }
 
-    $(document).mousemove(function(){
-        var timeStamp = new Date();
-        sessionStorage.setItem("lastTimeStamp",timeStamp);
-    });
+    function resetTimer(){
+        duration =60;
+        console.log(duration);
+    }
 
-    timechecker();
+    $(document).mousemove(resetTimer);
 });
