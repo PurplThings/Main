@@ -62,7 +62,6 @@
             $sql = $link->prepare("INSERT INTO `users`(`f_name`,`l_name`,`email`,`identity_no`,`phno`,`password`,`gender`,`avatar`,`logintype`,`activation`) VALUES(?,?,?,?,?,?,?,?,?,?)");
             $sql->bind_param("ssssssssss",$fname,$lname,$email,$id,$phno,$pwd,$gender,$avatar,$logintype,$activation);
             $sql->execute();
-            echo $sql->affected_rows ;
             if($sql->affected_rows === 1){
                 $sql = $link->prepare("SELECT * FROM `users` WHERE `email`=?");
                 $sql->bind_param("s",$lemail);
@@ -139,8 +138,7 @@
                         Hi $fname $lname,<br><br>
                         Thank you for registering with us.<br><br>
                         Account Details:-<br>
-                        Account Username : $email<br>
-                        Account Identity : $id <br><br>
+                        Account Username : $email<br><br>
                         Activation Link -> <a href='https://purplthings.com/forgotpwd.php?id=$id' class='btn btn-primary'>Activate</a>
                     ".$emailfooter;
             if(mail($email,$subject,$msg,$headers)){

@@ -1,6 +1,6 @@
 $(function(){
 
-    var duration = 60;
+    var duration = 300;
 
     setInterval(updateTimer,1000);
 

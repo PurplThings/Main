@@ -1,4 +1,4 @@
-    <!-- NAVIGATION BAR  -->
+<!-- NAVIGATION BAR  -->
 
     <nav class="navbar shadow-lg sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -37,3 +37,17 @@
     </div>
     </nav>
     <!-- END NAVIGATION BAR -->
+
+<?php
+
+    if(isset($_SESSION['posted'])){
+        echo "
+                        <div class='alert alert-success alert-dismissible fade show' role='alert' style='z-index:1100;position:absolute;width:100%;'>
+                        <svg class='bi flex-shrink-0 me-2' width='24' height='24' role='img' aria-label='Danger:'><use xlink:href='#check-circle-fill'/></svg>
+                        Your post successfully posted :)
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+            ";
+        $_SESSION['posted'] = FALSE;
+    }
+?>
