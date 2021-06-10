@@ -15,7 +15,7 @@
         $sql->bind_param("ssssis",$post_id,$title,$description,$img,$likes,$date_post);
         $sql->execute();
         if($sql->affected_rows === 1){
-            $_SESSION['posted'] =TRUE;
+            $_SESSION['posted'] =true;
             header("location:blog.php");
         }
         
