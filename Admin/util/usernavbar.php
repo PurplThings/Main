@@ -14,7 +14,7 @@
                 <a class="nav-link" href="home.php" style="color: purple;">HOME <i class="fas fa-home"></i></a>
             </li>
             <li class="nav-item fw-bold">
-                <a class="nav-link" href="#" style="color: purple;">RESEARCH <i class="fas fa-search"></i></a>
+                <a class="nav-link" href="blog.php" style="color: purple;">BLOG <i class="fas fa-search"></i></a>
             </li>
             <li class="nav-item fw-bold">
                 <a class="nav-link" href="#" style="color: purple;">IDEAS <i class="far fa-lightbulb"></i></a>
