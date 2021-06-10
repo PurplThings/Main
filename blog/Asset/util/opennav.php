@@ -87,13 +87,13 @@
                 <a class="nav-link" href="index.php" style="color: purple;">HOME <i class="fas fa-home"></i></a>
             </li>
             <li class="nav-item fw-bold">
-                <a class="nav-link" href="#" style="color: purple;">RESEARCH <i class="fas fa-search"></i></a>
+                <a class="nav-link" target="_blank" href="https://research.purplthings.com/" style="color: purple;">RESEARCH <i class="fas fa-search"></i></a>
             </li>
             <li class="nav-item fw-bold">
                 <a class="nav-link" href="index.php" style="color: purple;">IDEAS <i class="far fa-lightbulb"></i></a>
             </li>
             <li class="nav-item fw-bold">
-                <a class="nav-link" href="#aboutus" style="color: purple;">ABOUT <i class="far fa-address-card"></i></a>
+                <a class="nav-link" target="_blank" href="https://blog.purplthings.com/" style="color: purple;">BLOG <i class="far fa-address-card"></i></a>
             </li>
             <li class="nav-item fw-bold">
                 <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModallg" style="color: purple;"> CONTACT US <i class="far fa-id-badge"></i></a>
