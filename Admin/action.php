@@ -7,6 +7,7 @@
         $description = mysqli_real_escape_string($link,$_POST['description']);
 
         
+        
     }
 
 
