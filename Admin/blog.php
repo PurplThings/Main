@@ -8,9 +8,6 @@
     }else{
         header('location:../index.php');
     }
-
-
-    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +29,7 @@
 </head>
 <body class="scrollbar">
     <!-- User Navigation Bar -->
-    <?php require 'util/usernavbar.php'; ?>
+    <?php require 'util/adminnavbar.php'; ?>
     <!-- End User Navigation Bar -->
 
     <br><br>
