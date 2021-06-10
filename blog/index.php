@@ -12,7 +12,7 @@
         }
     </style>
 </head>
-<body>
+<body class="scrollbar">
     <br>
     <div class="Blog">
         <div class="row">
