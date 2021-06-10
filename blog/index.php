@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog PurplThings</title>
     <?php include_once "./Asset/util/index_require.php"; ?>
+    <style>
+        .row{
+            --bs-gutter-x : 0%;
+        }
+    </style>
 </head>
 <body>
     <br>
