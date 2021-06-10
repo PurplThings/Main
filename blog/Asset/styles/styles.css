@@ -1,0 +1,180 @@
+
+.btn-outline-purple{
+    width: 25%;
+}
+.part2,.part3,.part4,.part5,.part6{
+    width: 90%;
+    margin: auto;
+}
+.part2 img{
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+.part3 img{
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+#aboutus .col-sm-3 p{
+    font-size: 1.4rem;
+}
+#aboutus .card {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+}
+#aboutus .card:hover {
+    transform: scale(1.1);
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    font-weight: bold;
+  }
+
+  .flip-card-front h1{
+    line-height: 250px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: purple;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  #aboutus .btn-group .btn-purple:hover{
+    background-color: #fff;
+    color: purple;
+  }
+  .part1 img{
+    height: 91vh;
+    width: auto;
+  }
+@media only screen and (max-width: 575px){
+    .part1 img{
+        height: 30vh;
+        width: auto;
+    }
+    .btn-outline-purple{
+        width: 50%;
+        margin: auto;
+    }
+    #aboutus .col-sm-3{
+        width: 50%;
+    }
+    #aboutus .col-sm-3 p{
+        font-size: 1.1rem;
+    }
+    .flip-card {
+        margin-bottom: 10px;
+    }
+    .part3 .row{
+        --bs-gutter-x: 0;
+    }
+    .part2 .col-sm-4{
+        margin-top: -7%;
+    }
+    .part3 .col-sm-4{
+        margin-top: -25%;
+        margin-left: 15px;
+    }
+    .part4 .flip-card-front h1{
+        font-size: 2rem;
+        font-weight:bolder;
+    }
+    .part4 .flip-card-back p{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 720px) and (max-width:970px){
+    .part1 img{
+        height: 30vh;
+        width: auto;
+    }
+    .btn-outline-purple{
+        width: 40%;
+    }
+    #aboutus .col-sm-3{
+        width: 50%;
+    }
+    #aboutus .col-sm-3 p{
+        font-size: 1.1rem;
+    }
+    .flip-card {
+        margin-bottom: 10px;
+    }
+    .part3 .row{
+        --bs-gutter-x: 0;
+    }
+    .part2 .col-sm-4{
+        margin-top: -30px;
+    }
+    .part3 img{
+        width: 90%;
+        margin-top: 40%;
+    }
+    .part4 .flip-card-front h1{
+        font-size: 2rem;
+        font-weight:bolder;
+    }
+    .part4 .flip-card-back p{
+        font-size: 1.5rem;
+        font-weight:bolder;
+    }
+}
+@media (min-width:971px) and (max-width:980px){
+    .part1 img{
+        height: 25vh;
+        width: auto;
+    }
+    .part2 img{
+        margin-top: 20%;
+    }
+    .part3 img{
+        width: 90%;
+        margin-top: 40%;
+    }
+    .part4 .flip-card-front h1{
+        font-size: 1.5rem;
+        font-weight:bolder;
+    }
+    .part4 .flip-card-back p{
+        font-size: 0.85rem;
+        font-weight:bolder;
+    }
+}
