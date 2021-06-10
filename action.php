@@ -24,9 +24,9 @@
                 if($activation == 1){
                     $_SESSION['logintype'] = $data['logintype'];
                     if($data['logintype']=="user"){
-                        header("location:Users/home.php");
+                        header("location:Users/index.php");
                     }else if($data['logintype'] == "admin"){
-                        header("location:Admin/home.php");
+                        header("location:Admin/index.php");
                     }
                 }else{
                     header("location:index.php?msg=Your account is not activated yet, please activate and Login!");

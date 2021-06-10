@@ -5,9 +5,9 @@
       $e_msg = $_GET['msg'];
     }
     if($_SESSION['logintype']=="user"){
-        header("location:Users/home.php");
+        header("location:Users/index.php");
     }else if($_SESSION['logintype'] == "admin"){
-        header("location:Admin/home.php");
+        header("location:Admin/index.php");
     }
 ?>
 <!DOCTYPE html>

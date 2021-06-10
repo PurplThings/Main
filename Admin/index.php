@@ -3,7 +3,7 @@
     session_start();
     if(isset($_SESSION['logintype'])){
         if($_SESSION['logintype']=='user'){
-            header('location:../Users/home.php');
+            header('location:../Users/index.php');
         }
     }else{
         header('location:../index.php');
