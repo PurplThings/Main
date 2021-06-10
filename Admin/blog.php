@@ -35,24 +35,14 @@
 
     <br><br>
     <div class="container">
-        <div class="shadow-lg p-2">
-            <div class="row">
-                <div class="col-sm-7 mt-3 ms-5">
-                    <img class="shadow-lg px-1 py-1 bg-warning" src="../Asset/images/profile1.jpg" alt="profile photo" style="height:150px;width:150px;border-radius:50%;">
-                </div>
-                <div class="col-sm-4 text-end py-4 px-4">
-                    <h3><?php echo $_SESSION['name']; ?></h3>
-                    <h6><?php echo $_SESSION['email']; ?></h6>
-                    <h6>ID: <?php echo $_SESSION['id']; ?></h6>
-                    <h6>Tel: <?php echo $_SESSION['phno']; ?></h6>
-                </div>
-            </div>
-        </div>
+        <form action="action.php" method="post">
+            <h3 class="text-center">Blog Post</h3>
+            <input class="form-control" type="text" name="title" placeholder="Enter title here.." required><br>
+            <textarea class="form-control" name="description" cols="30" rows="10" placeholder="Description" required></textarea><br>
+            <input type="file" name="img" class="form-control" ><br>
+            <input type="submit" class="btn btn-purple float-end" name="blogpost" value="POST">
+        </form>
     </div>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
     <br><br><br><br>
     <?php include_once "../Asset/util/footer.php"; ?>
 </body>

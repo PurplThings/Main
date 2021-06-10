@@ -1,5 +1,6 @@
 <?php
-    if($_SERVER['HTTP_HOST']!='purplthings.com'){
+
+    if($_SERVER['HTTP_HOST']=='localhost'){
         //localhostkey
         $link = mysqli_connect("localhost","root","","purple_things") or die("Database Connection Error!");
     }else{
