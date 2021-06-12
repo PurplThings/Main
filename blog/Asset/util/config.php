@@ -1,5 +1,6 @@
 <?php
-    if($_SERVER['HTTP_HOST']=='localhost'){
+    //echo $_SERVER['HTTP_HOST'];
+    if($_SERVER['HTTP_HOST']=='localhost' || $_SERVER['HTTP_HOST'] =="192.168.212.40"){
         //localhostkey
         $link = mysqli_connect("localhost","root","","purple_things") or die("Database Connection Error!");
     }else{

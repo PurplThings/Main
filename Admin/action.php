@@ -8,7 +8,8 @@
         $post_id = generateID(6,$link);
         $date_post = "".date("d-m-Y h:i:s A");
         $likes = 0;
-        $img ="IMG_".$post_id;
+        // $img ="IMG_".$post_id;
+        $img ="";
 
         $sql = $link->prepare("INSERT INTO `posts`(`post_id`,`title`,`description`,`img`,`likes`,`date_post`) VALUES(?,?,?,?,?,?)");
         
