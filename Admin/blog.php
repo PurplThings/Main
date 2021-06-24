@@ -66,11 +66,11 @@
     function editPost(id){
         alert(id);
     }
-    function deletePost(id){
+    function deletePost(id,type){
         $.ajax({
             url:"action.php",
             method:"POST",
-            data:{deletePostId:id},
+            data:{deletePostId:id,type:type},
             success:function(data){
                 getPostList();
                 $("#err_show").html(data);

@@ -9,11 +9,12 @@
         $post_id = generateID(6,$link);
         $date_post = "".date("d-m-Y h:i:s A");
         $posted_by = (String)$_SESSION['id'];
-        $image_name= "IMG_".$post_id;
+        $image ="";
         $likes = 0;
         $error_msg="";
 
         if($_FILES['img']['error']!=4){
+            $image_name= "IMG_".$post_id;
             $target_dir = "../Asset/images/uploads/blog_images/";
             $check = getimagesize($_FILES["img"]["tmp_name"]);
             $imageFileType = strtolower(pathinfo(basename($_FILES["img"]["name"]),PATHINFO_EXTENSION));
@@ -44,7 +45,7 @@
             
             $sql = $link->prepare("INSERT INTO `posts`(`post_id`,`title`,`description`,`img`,`likes`,`date_post`,`posted_by`) VALUES(?,?,?,?,?,?,?)");
         
-            $sql->bind_param("ssssiss",$post_id,$title,$description,$image_name,$likes,$date_post,$posted_by);
+            $sql->bind_param("ssssiss",$post_id,$title,$description,$image,$likes,$date_post,$posted_by);
             $sql->execute();
             if($sql->affected_rows === 1){
                 $_SESSION['msg'] ="Your post successfully posted :)";
@@ -79,13 +80,14 @@
             <tbody >";
             while($data = $result->fetch_assoc()){
                 $postid = (String) $data['post_id'];
+                $img = pathinfo(basename($data['img']),PATHINFO_EXTENSION);
                 echo "<tr>
                     <td>$i</td>
                     <td>$postid</td>
                     <td>".$data['title']."</td>
                     <td>".$data['posted_by']."</td>
                     <td><i class='fas fa-edit text-warning mx-2' data-bs-toggle='modal' data-bs-target='#editPostModal$postid' style='cursor:pointer;'></i>
-                    <i class='far fa-times-circle text-danger mx-1' onclick='deletePost($postid)' style='cursor:pointer;'></i></td>
+                    <i class='far fa-times-circle text-danger mx-1' onclick='deletePost($postid,`$img`)' style='cursor:pointer;'></i></td>
                 </tr>";
                 $modals .= "
                     <div class='modal fade' id='editPostModal$postid' tabindex='-1' aria-labelledby='editPostLable$postid' aria-hidden='true'>
@@ -101,7 +103,7 @@
                                 <input class='form-control' type='text' name='title' placeholder='Enter title here..' value='".$data['title']."' required><br>
                                 <textarea class='form-control' name='description' cols='30' rows='5' placeholder='Description' required>".$data['description']."</textarea><br>
                                 <input type='file' name='img' class='form-control' ><br>
-                                <input type='text' name='postid' value='$postid' hidden> 
+                                <input type='text' name='postid' value='$postid' hidden>
                                 <input type='submit' class='btn btn-purple float-end' name='updateblogpost' value='UPDATE'>
                             </form>
                         </div>
@@ -124,7 +126,8 @@
     }
     if(isset($_POST['deletePostId'])){
         $id = $_POST['deletePostId'];
-
+        $image = "IMG_".$id.".".$_POST['type'];
+        unlink("../Asset/images/uploads/blog_images/".$image);
         $sql = $link->prepare("DELETE FROM posts WHERE post_id = ?");
         $sql->bind_param("s",$id);
         $sql->execute();
