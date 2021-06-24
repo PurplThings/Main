@@ -13,7 +13,7 @@ $(function(){
     }
 
     function resetTimer(){
-        duration =60;
+        duration =300;
         console.log(duration);
     }
 

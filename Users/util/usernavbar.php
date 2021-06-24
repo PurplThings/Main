@@ -23,10 +23,10 @@
                 <a class="nav-link" href="#aboutus" style="color: purple;">ABOUT <i class="far fa-address-card"></i></a>
             </li>
             <li class="nav-item fw-bold">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModallg" style="color: purple;"> CONTACT US <i class="far fa-id-badge"></i></a>
+                <a class="nav-link" href="#" style="color: purple;"> CONTACT US <i class="far fa-id-badge"></i></a>
             </li>
             <li class="nav-item fw-bold">
-                <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#LoginModalsm" style="color: purple;"> PROFILE <i class="far fa-user-circle"></i></a>
+                <a class="nav-link" href="profile.php"  style="color: purple;"> PROFILE <i class="far fa-user-circle"></i></a>
             </li>
             <li class="nav-item fw-bold">
                 <a class="nav-link active" href="../Asset/util/logout.php" style="color: purple;">LOGOUT <i class="fas fa-sign-out-alt"></i> </a>

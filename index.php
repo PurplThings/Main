@@ -89,9 +89,9 @@
     <br><br>
 
     <div class="part2">
-        <div class="row shadow-lg">
+        <div class="row ">
             <div class="col-sm-8 card  p-4" style="border: none;">
-                <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">VISION</h1><br><br>
+                <h1 class="text-purple text-center fw-bold">VISION</h1><br><br>
                 <h5 class="text-center">PurplThings provide competitive, high quality electronic services and products, 
                     whilst encouraging everyone to use creative and innovative products to help improve environment.</h5><br>
             </div>
@@ -104,9 +104,9 @@
     <br><br>
 
     <div class="part3">
-        <div class="row shadow-lg">
+        <div class="row ">
             <div class="col-sm-8 p-4" style="border: none;">
-                <h1 class="text-purple text-center fw-bold" style="text-shadow: -3px 3px lightgrey;">MISSION</h1><br><br>
+                <h1 class="text-purple text-center fw-bold">MISSION</h1><br><br>
                 <h3 class="text-center">"Everyones go-to provider for electronic services."</h3><br>
                 <div class="p-4">
                     <div class="row"><div class="col"><img src="Asset/images/green-tick.png" style="height: 20px;width:20px;"></div> <div class="col-11"><h5>Imply Continuous Process Improvement strategies to ensure the highest quality products and services.</h5></div></div>
@@ -193,7 +193,7 @@
 
     <!-- Container 1 -->
     <div class="part5">
-        <div class="row shadow-lg">
+        <div class="row">
             <div class="col-sm-6 card  p-4" style="border: none;">
                 <h1 class="text-purple fw-bold">Internet of Things</h1><br><br>
                 <h5 class="">describes the network of physical object-"things" that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet.</h5><br>
@@ -213,7 +213,7 @@
     
         <br><br>
     <!-- About Us -->
-    <div class="part6" id="aboutus">
+    <!-- <div class="part6" id="aboutus">
         <div class="row px-2">
             <div class="col-sm-3 py-4">
                 <div class="card shadow-lg">
@@ -268,7 +268,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End About Us -->
 
 <br><br>

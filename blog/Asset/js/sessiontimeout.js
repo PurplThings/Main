@@ -1,6 +1,6 @@
 $(function(){
 
-    var duration = 60;
+    var duration = 300;
 
     setInterval(updateTimer,1000);
 
@@ -13,7 +13,7 @@ $(function(){
     }
 
     function resetTimer(){
-        duration =60;
+        duration =300;
         console.log(duration);
     }
 

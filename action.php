@@ -165,7 +165,10 @@
         $code = "";
         $clean = strlen($chars)-1;
         while(strlen($code)<$length){
-            $code .= $chars[mt_rand(0,$clean)];
+            $c = $chars[mt_rand(0,$clean)];
+            if(strlen($code) > 0 || $c != "0"){
+                $code .= $c;
+            }
         }
         $sql = $link->prepare("SELECT * FROM `users` WHERE identity_no=?");
         $sql->bind_param("s",$code);
