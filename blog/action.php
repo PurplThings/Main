@@ -20,7 +20,8 @@
                 </div><br>
                 <div class='image'>";
 
-                if($data['img']!="") echo "<img src='https://purplthings.com/Asset/images/uploads/blog_images/".$data['img']."' class='w-100'>";else echo "";
+                if($data['img']!="" && $_SERVER['HTTP_HOST']=="localhost") echo "<img src='../Asset/images/uploads/blog_images/".$data['img']."' class='w-100'>";else echo "";
+                if($data['img']!="" && $_SERVER['HTTP_HOST']!="localhost") echo "<img src='https://purplthings.com/Asset/images/uploads/blog_images/".$data['img']."' class='w-100'>";else echo "";
             
                 echo "</div><br>
                 <div class='description'>

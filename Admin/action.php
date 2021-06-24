@@ -25,7 +25,7 @@
                 if (!($_FILES["img"]["size"] > 25000000)) {
                     if($imageFileType == "jpg" || $imageFileType == "png" || $imageFileType == "jpeg") {
                             if(move_uploaded_file($_FILES["img"]["tmp_name"], $path)){
-                                change_image_resolution($path,400,300);
+                                if($_SERVER['HTTP_HOST']!="localhost") change_image_resolution($path,400,300);
                                 $error_msg="uploaded";
                             }else{
                                 $error_msg= "Failed to upload Image";
