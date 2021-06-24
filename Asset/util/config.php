@@ -8,6 +8,17 @@
 
     }
 
+    function change_image_resolution($imagepath,$new_width,$new_height){
+      $old_img_path=$new_img_path=$imagepath;
+      $t = imagecreatefromjpeg($old_img_path);
+      $s = imagecreatetruecolor($new_width, $new_height);
+      $x = imagesx($t);
+      $y = imagesy($t);
+      imagecopyresampled($s, $t, 0, 0, 0, 0, $new_width, $new_height, $x, $y);
+      imagejpeg($s, $new_img_path);
+      chmod($new_img_path, 0644);
+  }
+
     $emailheader = "
     <!DOCTYPE html>
 <html lang='en'>

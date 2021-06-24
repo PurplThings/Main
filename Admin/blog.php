@@ -36,11 +36,11 @@
 
     <div class="row">
         <div class="col-sm-4 p-4">
-            <form action="action.php" method="post">
+            <form action="action.php" method="post" enctype="multipart/form-data">
                 <h3 class="text-center">Blog Post</h3>
                 <input class="form-control" type="text" name="title" placeholder="Enter title here.." required><br>
                 <textarea class="form-control" name="description" cols="30" rows="10" placeholder="Description" required></textarea><br>
-                <input type="file" name="img" class="form-control" ><br>
+                <input type="file" name="img" class="form-control" accept="image/jpeg,png,jpg"><br>
                 <input type="submit" class="btn btn-purple float-end" name="blogpost" value="POST">
             </form>
         </div>

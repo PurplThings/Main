@@ -40,14 +40,25 @@
 
 <?php
 
-    if(isset($_SESSION['posted'])){
+    if(isset($_SESSION['msg'])){
         echo "
-                        <div class='alert alert-success alert-dismissible fade show' role='alert' style='z-index:1100;position:absolute;width:100%;'>
-                        <svg class='bi flex-shrink-0 me-2' width='24' height='24' role='img' aria-label='Danger:'><use xlink:href='#check-circle-fill'/></svg>
-                        Your post successfully posted :)
-                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
-                        </div>
+                <div class='alert ";
+        if($_SESSION['msg_type']=="success"){ echo "alert-success";} 
+        if($_SESSION['msg_type']=="danger"){ echo "alert-danger";} 
+        if($_SESSION['msg_type']=="warning"){ echo "alert-warning";} 
+
+        echo " alert-dismissible fade show' role='alert' style='z-index:1100;position:absolute;width:100%;'>
+                <svg class='bi flex-shrink-0 me-2' width='24' height='24' role='img' ";
+
+        if($_SESSION['msg_type']=="success"){echo "aria-label='Danger:'><use xlink:href='#check-circle-fill'/></svg>";}
+        if($_SESSION['msg_type']=="danger"){echo "aria-label='Danger:'><use xlink:href='#exclamation-triangle-fill'/></svg>";}
+        if($_SESSION['msg_type']=="warning"){echo "aria-label='Warning:'><use xlink:href='#exclamation-triangle-fill'/></svg>";}
+
+        echo   $_SESSION['msg']."
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>
             ";
-        $_SESSION['posted'] = NULL;
+        $_SESSION['msg'] = NULL;
+        $_SESSION['msg_type'] = NULL;
     }
 ?>
