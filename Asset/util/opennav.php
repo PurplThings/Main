@@ -90,6 +90,9 @@
                 <a class="nav-link" href="https://research.purplthings.com/" target="_blank" style="color: purple;">RESEARCH <i class="fas fa-search"></i></a>
             </li>
             <li class="nav-item fw-bold">
+                <a class="nav-link" href="https://live.purplthings.com/" target="_blank" style="color: purple;">LIVE <i class="far fa-dot-circle"></i></a>
+            </li>
+            <li class="nav-item fw-bold">
                 <a class="nav-link" href="index.php" style="color: purple;">IDEAS <i class="far fa-lightbulb"></i></a>
             </li>
             <li class="nav-item fw-bold">
